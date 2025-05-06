@@ -1,10 +1,12 @@
-
-{
+*{
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
 	font-family:verdana, Geneva, Tohoma, sans-serif; 
 
+}
+body{
+	background-color: #4f4d4d;
 }
 
 .center{
@@ -15,7 +17,7 @@
 	padding:0 2%;
 }
 
-html,body{
+html.body{
 	height:100%;
 	overflow-y: hidden;
 	overflow-x: hidden;
@@ -25,40 +27,48 @@ html,body{
 header{
 	height:200px;
 	padding:20px 0;
+	
 
 }
 
 .logo{
 	width:50%;
 }
+.navegation>a{
+	padding: 0px 20px;
+}
 
 .menu{
 	padding-top:30px;
 	width:50%;
 	text-align:right;
+	text-decoration:none;
 }
 
-header.menu a{
-	color:black;
-	text-decoration:;
-	font-weight: bold; 15px
+.menu a{
+	text-decoration:none;
+	color:rgb(39, 37, 37);
+	font-weight: bold;
 	margin-right:15px;
+	position: sticky;
+	
 
 }
 
-selection.sobre{
+section.sobre{
 	height:calc(100% - 200px);
-	position: relative ;
+	position:relative ;
 }
 
 .extra{ 
-	position:absolute;
-	bottom:-450px;
+
+	position:fixed;
+	bottom:-540px;
 	right:-500px;
 	width:1200px;
 	height:1200px;
 	border-radius:50%;
-	background-color:#D3D3D3;
+	background-color:#353535;
 }
 
 .social-midia{
@@ -107,18 +117,8 @@ selection.sobre{
 	margin-top:100px;
 }
 
+.menu button{
+	background-color: transparent;
 
 
-header .navegation a{
-	color:#fff;
-	display:inline-block;
-	text-decoration:none;
-	font-weight:500;
-	font-size:500;
-	margin-left:100px;
 }
-
-
-
-
-
