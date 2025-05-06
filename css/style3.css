@@ -1,0 +1,21 @@
+table{
+    border: 5px black;
+}
+img{
+    width: 120px;
+}
+a{
+   text-decoration: none;
+   color: black;
+}
+button{
+    background-color: rgb(62, 62, 203);
+    border-radius: 5px;
+    margin: auto;
+    
+    width: 60px;
+    height: 30px;
+}
+td{
+   
+}
